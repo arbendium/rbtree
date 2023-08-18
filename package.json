@@ -1,0 +1,20 @@
+{
+  "type": "module",
+  "name": "@arbendium/tree",
+  "version": "0.0.0",
+  "description": "A functional tree data structure designed to behave like an ordered KV database",
+  "author": "Keijo Kapp <keijo.kapp@gmail.com>",
+  "license": "ISC",
+  "exports": {
+    ".": "./lib/tree.js"
+  },
+  "files": ["lib"],
+  "scripts": {
+    "lint": "eslint lib *..js",
+    "test": "node test.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "eslint-config-airbnb-base": "^15.0.0"
+  }
+}
